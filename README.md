@@ -1,7 +1,8 @@
 # continuous_integration_test
 
 ## Pré-Requisitos
-* Docker-ce Instalado
+* Docker
+[Download - Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/)
 
 ### Imagens Docker customizada para o projetos
 [DockerHub - Jenkins](https://hub.docker.com/repository/docker/alefbruno/jenkins)
@@ -18,7 +19,10 @@ docker container run --name jenkins_default --detach \
    -p 8080:8080 -p 50000:50000 alefbruno/jenkins:1.0.0
 
 ```
-  * Após executar o comando, acesse pelo navegador o [Link](localhost:8080)
+  * Após executar o comando:
+  
+  * Acesse pelo navegador a url 
+    * localhost:8080
   
   * Usuário e Senha para acessar o Jenkins
     * User: admin
